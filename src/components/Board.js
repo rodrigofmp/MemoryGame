@@ -30,16 +30,16 @@ export default function Board() {
 
   const getImagePath = (index) => {
     switch (index) {
-        case 1: return 'assets/card-apple.png';
-        case 2: return 'assets/card-ball.png';
-        case 3: return 'assets/card-car.png';
-        case 4: return 'assets/card-fish.png';
-        case 5: return 'assets/card-flower.png';
-        case 6: return 'assets/card-leaf.png';
-        case 7: return 'assets/card-mushroom.png';
-        case 8: return 'assets/card-rocket.png';
-        case 9: return 'assets/card-star.png';
-        default: return 'assets/card-default.png';
+        case 1: return 'assets/Alchemist_Card.png';
+        case 2: return 'assets/Archer_Card.png';
+        case 3: return 'assets/Barbarian_Card.png';
+        case 4: return 'assets/Bard_Card.png';
+        case 5: return 'assets/Cleric_Card.png';
+        case 6: return 'assets/Druid_Card.png';
+        case 7: return 'assets/Healer_Card.png';
+        case 8: return 'assets/Mage_Card.png';
+        case 9: return 'assets/Paladin_Card.png';
+        default: return 'assets/Dragon_Card.png';
     }  
   }
 

@@ -53,7 +53,8 @@ ul {
 body {
   font-family: sans-serif;
   margin: 20px;
-  padding: 20;
+  padding: 0;
+  background: #000;
 }
 
 .square {
@@ -63,8 +64,8 @@ body {
   font-size: 24px;
   font-weight: bold;
   line-height: 34px;
-  height: 120px;
-  margin: 0px;
+  height: 160px;
+  margin: 20px;
   padding: 0px;
   text-align: center;
   width: 120px;
